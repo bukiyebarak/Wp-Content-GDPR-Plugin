@@ -1,0 +1,31 @@
+.gdpr_container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 1, 0.09);
+    padding:1rem;
+    max-width: 350px;
+}
+
+.gdpr_text_container {
+    text-align: center;
+}
+
+.gdpr_text_container p {
+    padding:0.5rem;
+    font-size: 0.9rem;
+}
+
+.gdpr_button_container {
+    text-align: center;
+}
+
+.gdpr_button {
+    background-color: whitesmoke;
+    padding:0.5rem;
+    border-style: none;
+}
+.gdpr_button:hover{
+     background-color: #bebebf;
+    color: white;
+ }
