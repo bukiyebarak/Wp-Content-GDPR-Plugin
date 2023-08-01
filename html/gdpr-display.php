@@ -5,6 +5,5 @@
 	<div class="gdpr_button_container">
 		<button class="gdpr_button" id="gdpr_accept"> <?php echo get_option('tst_gdpr_button_text','ACCEPT')?></button>
 	</div>
-
 </div>
 

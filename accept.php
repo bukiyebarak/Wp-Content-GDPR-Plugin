@@ -3,7 +3,6 @@
 require_once( explode( "wp-content", __FILE__ )[0] . "wp-load.php" );
 $expire = 6 * 30 * 24 * 3600;
 setcookie( "gdpr_accept", 'yes', time() + $expire, '/' ); /* expire in 6 months */
-
 $ip_address = $_SERVER['REMOTE_ADDR'];
 if ( isset( $current_user->ID ) ) {
 	$userID = $current_user->ID;

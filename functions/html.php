@@ -1,6 +1,5 @@
 <?php
 function tst_display_gdpr(){
-
 	if(!isset($_COOKIE['gdpr_accept'])){
 		ob_start();
 		include(plugin_dir_path(__DIR__).'html/gdpr-display.php');

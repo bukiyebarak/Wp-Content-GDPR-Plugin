@@ -13,7 +13,7 @@ require_once('functions/html.php');
 require_once('functions/settings.php');
 require_once('functions/js.php');
 
-function tst_gdpr_activation_hook(): void {
+function tst_gdpr_activation_hook() {
 	global $wpdb;
 	#name of the table
 	$table = $wpdb->prefix . 'gdpr';
@@ -34,7 +34,6 @@ function tst_gdpr_activation_hook(): void {
 			)
 		");
 	} #end of check_table count
-
 }
 
 register_activation_hook( __FILE__, 'tst_gdpr_activation_hook' ); // tabloyu aktive etmeyi sağlıyor. Plugini etkinleştirdiğinde

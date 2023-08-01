@@ -15,7 +15,6 @@
 	}
 	$gdpr_text        = get_option( 'tst_gdpr_text', '' );
 	$gdpr_button_text = get_option( 'tst_gdpr_button_text', '' );
-
 	?>
     <form action="" method="post">
         <label for="gdpr_text">GDPR TEXT</label>
